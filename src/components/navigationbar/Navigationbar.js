@@ -8,7 +8,7 @@
 //внизу - sfc
 import sun from "./../../img/icons/sun.svg"
 import moon from "./../../img/icons/moon.svg" 
-
+import "./style.css";
 //для импортов добавили выход два раза вверх по сравнению с app.js
 
 const Navigationbar = () => {
