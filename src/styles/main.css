@@ -47,8 +47,6 @@
 
 html,
 body {
-	display: flex;
-	flex-direction: column;
 	min-height: 100vh;
 
 	font-family: 'DM Sans', sans-serif;
@@ -58,8 +56,18 @@ body {
 	background-color: var(--page-bg);
 	color: var(--text-color);
 }
-
+/* селектор */
+#root {
+	min-height: 100vh;
+}
 /* General */
+
+/* прописываем для класса что бы на всю растягивался */
+.App {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
 
 .container {
 	margin: 0 auto;
