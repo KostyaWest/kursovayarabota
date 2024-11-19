@@ -12,6 +12,7 @@ function App() {
 
         <Header/>
 
+{/* ниже наполнение главной страницы. каждая страница - header + наполнение => выносим в отдельный файл */}
         <main className="section">
             <div className="container">
 
