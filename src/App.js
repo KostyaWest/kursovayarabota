@@ -3,8 +3,9 @@ import "./styles/main.css"
 import Navigationbar from "./components/navigationbar/Navigationbar"
 import Footer from "./components/footer/Footer"
 import Home from "./pages/Home";
-import Project from "./pages/Project";
+import Projects from "./pages/Projects";
 import Contacts from "./pages/Contacts";
+
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Navigationbar/>
 
         {/* <Home/> */}
-        {/* <Project/> */}
+        <Projects/>
         <Contacts/>
         <Footer/>
 
