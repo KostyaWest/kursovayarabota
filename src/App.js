@@ -3,6 +3,7 @@ import "./styles/main.css"
 import Navigationbar from "./components/navigationbar/Navigationbar"
 import Footer from "./components/footer/Footer"
 import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
 
         <Navigationbar/>
 
-        <Home/>
+        {/* <Home/> */}
+        <Projects/>
 
         <Footer/>
 
