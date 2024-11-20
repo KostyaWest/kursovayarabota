@@ -47,8 +47,6 @@
 
 html,
 body {
-	display: flex;
-	flex-direction: column;
 	min-height: 100vh;
 
 	font-family: 'DM Sans', sans-serif;
@@ -57,6 +55,19 @@ body {
 	/* Light mode */
 	background-color: var(--page-bg);
 	color: var(--text-color);
+}
+
+/* Страница должна растягиваться полностью, что бы не было багов. Из за того что
+   раньше чердак, тело и подвал были в в одном файле, а теперь мы их разделили */
+#root {
+	min-height: 100vh;
+}
+
+/* Селектор ниже */
+.App {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 /* General */
