@@ -25,18 +25,21 @@ const projects = [
         img: img01,
         imgBig: img01big,
         gitHubLink: 'https://github.com',
+        id: 1, //вместо индексов присваиваю id
     }, 
     {
         title: 'Video service',
         skills: 'React',
         img: img02,
         imgBig: img02big,
+        id: 2,
     },
     {
         title: 'Video portal',
         skills: 'React',
         img: img03,
         imgBig: img03big,
+        id: 3,
     }, 
     {
         title: 'Dating app',
@@ -44,12 +47,14 @@ const projects = [
         img: img04,
         imgBig: img04big,
         gitHubLink: 'https://github.com',
+        id: 4,
     },
     {
         title: 'Landing',
         skills: 'React',
         img: img05,
         imgBig: img05big,
+        id: 5,
     }, 
     {
         title: 'Gaming community',
@@ -57,6 +62,7 @@ const projects = [
         img: img06,
         imgBig: img06big,
         gitHubLink: 'https://github.com',
+        id: 6,
     },
 ];
 
